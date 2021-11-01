@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 2px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  display:flex;
+  flex-direction: row;
+  flex-flow: row;
+  float: left;
+  font-size: 10px;
+  font-family: "Luckiest Guy", cursive;
+  font-family: "Press Start 2P", cursive;
+  position: auto;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 25px 25px;
+  text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Luckiest Guy", cursive;
+  font-family: "Press Start 2P", cursive;
+  color: red;
+}
+h1 {
+  text-shadow: 5px 5px 5px yellow;
+}
+p {
+  text-shadow: 5px 5px 5px blue;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Luckiest Guy", cursive;
+  font-family: "Press Start 2P", cursive;
+  color: red;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p3/2097266-fundo-abstrato-da-superficie-de-neptuno-gr%C3%A1tis-vetor.jpg");
+  height: 100vh;
+  background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p3/2097266-fundo-abstrato-da-superficie-de-neptuno-gr%C3%A1tis-vetor.jpg");
+  background-size: cover;
+}
+@media screen and (max-width: 1500px) {
+  body.fullheight {
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p3/2097266-fundo-abstrato-da-superficie-de-neptuno-gr%C3%A1tis-vetor.jpg");
+  }
+}
+@media screen and (max-width: 1000px) {
+  body.fullheight {
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p3/2097266-fundo-abstrato-da-superficie-de-neptuno-gr%C3%A1tis-vetor.jpg");
+  }
+}
+@media screen and (max-width: 800px) {
+  body {
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p3/2097266-fundo-abstrato-da-superficie-de-neptuno-gr%C3%A1tis-vetor.jpg");
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p3/2097266-fundo-abstrato-da-superficie-de-neptuno-gr%C3%A1tis-vetor.jpg");
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p3/2097266-fundo-abstrato-da-superficie-de-neptuno-gr%C3%A1tis-vetor.jpg");
+  }
+}
+@media screen and (max-width: 320px) {
+  body {
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p3/2097266-fundo-abstrato-da-superficie-de-neptuno-gr%C3%A1tis-vetor.jpg");
+  }
+}
+
+.videoElement{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.githubLogo{
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
